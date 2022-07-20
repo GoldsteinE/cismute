@@ -67,8 +67,8 @@
 //! assert_eq!(specialized_function(&":)"), "got something else");
 //! ```
 //!
-//! There's also a more generic function [`cismute::value`](value()) which can do
-//! all three. Writing all type arguments can be cumbersome, so you can also
+//! There's also a more generic function [`cismute::value`](value()) which can
+//! do all three. Writing all type arguments can be cumbersome, so you can also
 //! pass the type pair as an argument via [`cismute::value_with`](value_with()):
 //!
 //! ```rust
