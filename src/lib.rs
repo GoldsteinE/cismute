@@ -9,7 +9,6 @@
     meta_variable_misuse,
     noop_method_call,
     pointer_structural_match,
-    single_use_lifetimes,
     unused_lifetimes,
     unused_qualifications,
     clippy::wildcard_dependencies,
