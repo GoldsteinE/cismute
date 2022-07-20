@@ -1,7 +1,7 @@
 # cismute
 
-![docs badge](https://img.shields.io/docsrs/cismute)
-![license: BSD-2-Clause-Patent](https://img.shields.io/crates/l/cismute)
+[![docs badge](https://img.shields.io/docsrs/cismute)](https://docs.rs/cismute)
+[![license: BSD-2-Clause-Patent](https://img.shields.io/crates/l/cismute)](/LICENSE)
 
 Provides safe trivial transmutes in generic context, emulating specialization on stable Rust. These functions are designed for being optimized out by the compiler, so are probably zero-cost in most cases.
 
