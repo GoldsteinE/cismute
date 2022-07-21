@@ -1,6 +1,6 @@
 [package]
 name = "cismute"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "Safely transmute type to itself in generic contexts"
 repository = "https://github.com/GoldsteinE/cismute"
@@ -8,6 +8,9 @@ license = "BSD-2-Clause-Patent"
 keywords = ["transmute", "safe", "specialization"]
 categories = ["no-std", "rust-patterns"]
 exclude = ["flake.nix", "flake.lock", ".envrc"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [features]
 switch = []
