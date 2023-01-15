@@ -1,6 +1,6 @@
 name: Rust
 
-on:
+true:
   push:
     branches: [ "master" ]
   pull_request:
